@@ -42,13 +42,15 @@ const results = params.map((v) => {
   background-color: rgb(190, 190, 190);
   padding: 12px;
   border-radius: 20px;
+  max-height: 100px;
+  overflow-y: auto;
   .case {
     line-height: 1.5;
   }
 }
 .result {
   background-color: rgb(221, 203, 170);
-  padding:12px;
+  padding: 12px;
   border-radius: 20px;
   margin: 10px 0px 40px 0px;
 }
